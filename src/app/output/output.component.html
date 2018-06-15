@@ -1,0 +1,6 @@
+<p [appHighlight]="color">
+  output works! 父组件传值: {{hero}} heroGetSet:{{heroGetSet}}
+  <button (click)="delete(hero)">发送事件</button>
+  <button (click)="delete2()">发送事件2</button>
+  ?.{{heroObj?.name}} !.{{heroObj!.name}} {{changeLog|tst:'自定义管道tstPipe'}}
+</p>
